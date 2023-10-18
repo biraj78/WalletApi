@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48409192.css",
+    "main.js": "/static/js/main.16b824e4.js",
+    "static/media/digital-marketing.png": "/static/media/digital-marketing.d917e7b60c5d5378cf67.png",
+    "static/media/ai.png": "/static/media/ai.0bd7a60e3cd47af26f03.png",
+    "static/media/bulb.png": "/static/media/bulb.a4699fb166fa8c83128b.png",
+    "static/media/cube.png": "/static/media/cube.f39ab3b2aa546dadd02f.png",
+    "static/media/clock.png": "/static/media/clock.65f8e3f1522c3eac3919.png",
+    "index.html": "/index.html",
+    "main.48409192.css.map": "/static/css/main.48409192.css.map",
+    "main.16b824e4.js.map": "/static/js/main.16b824e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48409192.css",
+    "static/js/main.16b824e4.js"
+  ]
+}
