@@ -26,6 +26,6 @@ const demoSchema = new mongoose.Schema({
   }
 });
 
-const model = mongoose.model("movies", demoSchema);
+const model = mongoose.model("contact", demoSchema);
 
 module.exports = model;

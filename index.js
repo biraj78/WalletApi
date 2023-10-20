@@ -29,9 +29,9 @@ mongoose
 app.get("/", indexHandelar);
 
 //more routes
-app.post("/movies", createMovies);
+app.post("/contact", createMovies);
 
-app.get("/movies", getMovies);
+app.get("/contact", getMovies);
 
 app.use(express.static(path.join(__dirname, "./agency_web/build")));
 

@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const getMovies = async (req, res) => {
 
-  const MoviesModel = mongoose.model("movies");
+  const MoviesModel = mongoose.model("contact");
 
   const movies = await MoviesModel.find({
 

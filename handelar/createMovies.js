@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const createMovies = async (req, res) => {
-  const MoviesModel = mongoose.model("movies");
+  const MoviesModel = mongoose.model("contact");
 
   const {name, number, email, location, message, date} = req.body;
 
