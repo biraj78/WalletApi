@@ -12,9 +12,9 @@ require("dotenv").config();
 require("./movies.model");
 
 const app = express();
-
+// { origin: "https://www.agexdigital.tech" }
 app.use(express.json());
-app.use(cors({ origin: "https://www.agexdigital.tech" }));
+app.use(cors());
 const mongo_connect = process.env.mongo_connect;
 
 mongoose
