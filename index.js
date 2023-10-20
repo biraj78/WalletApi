@@ -14,7 +14,7 @@ require("./movies.model");
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: "https://agexdigital.tech"}));
+app.use(cors({ origin: "https://www.agexdigital.tech" }));
 const mongo_connect = process.env.mongo_connect;
 
 mongoose
